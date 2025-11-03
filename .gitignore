@@ -1,0 +1,61 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+
+# === Virtual environment ===
+venv/
+env/
+.venv/
+
+# === Pyenv ===
+.python-version
+
+# === IDE / Editor ===
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# === Logs and temp ===
+*.log
+*.tmp
+*.swp
+*.DS_Store
+
+# === Build / Distribution ===
+build/
+dist/
+*.egg-info/
+.eggs/
+*.spec
+
+# === Jupyter / IPython ===
+.ipynb_checkpoints/
+
+# === System files ===
+Thumbs.db
+.DS_Store
+
+# === Environment and config ===
+.env
+*.env
+
+# === Cache ===
+.cache/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+coverage/
+htmlcov/
+
+# === Project specific ===
+# Ignore camera calibration or model data if generated locally
+*.xml
+*.yaml
+*.json
+
+# === Requirements and Docs ===
+# keep requirements.txt and README in git
+!requirements.txt
+!README.md
